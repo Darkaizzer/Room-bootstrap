@@ -1,0 +1,283 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto";
+  font-style: normal;
+}
+.header {
+  height: 130px;
+}
+.header_top {
+  background-color: aliceblue;
+  display: flex;
+justify-content: flex-end; 
+}
+.header_top a {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 33px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #aaaaaa;
+  text-decoration: none;
+  padding-right: 20px;
+}
+.header_top select {
+  border: 1px solid aliceblue;
+  background-color: aliceblue;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 33px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #aaaaaa;
+  margin-right: 20px;
+}
+.header_bottom,
+.header_bottom a {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #000000;
+}
+.header_bottom a {
+  padding: 0 20px;
+}
+.about_bg img {
+  width: 90%;
+}
+.about_description h1 {
+  width: 28%;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 58px;
+  color: #1a1a1a;
+}
+.about_description p {
+  width: 36%;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 40px;
+  color: #aaaaaa;
+}
+.rooms_card div {
+  width: 650px;
+  margin-bottom: 30px;
+}
+.rooms_card img {
+  width: 100%;
+}
+.rooms_card span {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #1a1a1a;
+}
+.brands{
+    height: 560px;
+}
+
+.slide{
+  /* width: 90%;
+  margin: 100px auto;
+  margin-top: -60px; */
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.slide > img{
+  height: 720px;
+}
+.carousel-item .w-100{
+width: 100% !important;
+}
+
+.carousel-indicators {
+  margin-bottom: -2rem !important;
+}
+.carousel-indicators [data-bs-target]{
+  background-color: 
+  rgba(70, 133, 110, 1) !important;
+  border-radius: 50%;
+  width: 11px !important;
+  height: 9px !important;
+  
+}
+.OurSimple > p {
+font-weight: 400;
+font-size: 48px;
+line-height: 56px;
+color: #1A1A1A;
+}
+.OurSimpleCard >div {
+  width: 28%;
+}
+
+.OurSimpleCard img{
+padding: 20px 50px;
+}
+.OurSimple h5{
+  margin: 20px 0;
+font-weight: 400;
+font-size: 24px;
+line-height: 24px;
+color: #1A1A1A;
+}
+.ourSimpleCard p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #aaaaaa;
+}
+.feedBack{
+background-image: url(./Img/Rectangle1.svg);
+height: 800px;
+width: 95%;
+margin: 100px auto;
+}
+
+.feedBack p{
+  width: 51%;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  color: #ffffff;
+  padding: 10px 0;
+}
+.feedBack img{
+ padding: 3px 0;
+}
+.feedBack a {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 12px;
+  letter-spacing: 0.75px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #ffffff;
+}
+.workDeskription h1,
+.workDeskription h2 {
+  width: 60%;
+}
+.workDeskription h1 {
+  font-weight: 400;
+  font-size: 46px;
+  line-height: 52px;
+  color: #aaaaaa;
+}
+.wworkDeskription h2 {
+  font-weight: 400;
+  font-size: 46px;
+  line-height: 52px;
+  color: #000000;
+}
+.direct > div >div{
+width: 310px;
+margin: 0 auto;
+}
+.direct p{
+  font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #AAAAAA;
+}
+.sl{
+height: 465px;
+background: #F2F2F2;
+border-radius: 2px;
+margin-bottom: 100px;
+
+}
+.sl h1{
+  display: flex;
+  justify-content: center;
+}
+
+.sl a{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+height: 50px;
+background: #46856E;
+border-radius: 20px;
+width: 172px;
+text-decoration: none;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 60px;
+text-align: center;
+letter-spacing: 2px;
+text-transform: uppercase;
+color: #FFFFFF;
+
+}
+.footer{
+  background-color: #2B2B2B;
+  height: 600px;
+}
+.footer h5, .footer a, .inputSelect p{
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.5px;
+color: #FFFFFF;
+text-decoration: none;
+}
+.inputCheckbox p{
+  width: 360px;font-weight: 400;
+font-size: 11px;
+line-height: 13px;
+letter-spacing: 2.4px;
+text-transform: uppercase;
+color: rgba(255, 255, 255, 0.5);
+}
+.office a{
+  width: 60%;
+}
+.followUs{
+  width: 50%;
+}
+.inputSelect input{
+  width: 325px;
+  height: 55px;
+  background: #2B2B2B;
+box-shadow: 0px 400px 0px #2B2B2B;
+border: 1px solid rgba(255, 255, 255, 0.4);
+border-radius: 3px;
+}
+.inputSelect select{
+  background: #2b2b2b;
+  border: none;
+  color: rgba(255, 255, 255, 0.5);
+
+}
+.inputCheckbox{
+  position: relative;
+}
+.inputCheckbox input{
+  left: -45px;
+  position: absolute;
+width: 28px;
+height: 26px;
+background: #2B2B2B;
+border: 1px solid rgba(255, 255, 255, 0.5);
+}
+.btnSignup button{
+font-weight: 400;
+font-size: 14px;
+line-height: 60px;
+text-align: right;
+letter-spacing: 2.3px;
+text-transform: uppercase;
+background-color: #2b2b2b;
+color: #FFFFFF;
+border: none;
+}
